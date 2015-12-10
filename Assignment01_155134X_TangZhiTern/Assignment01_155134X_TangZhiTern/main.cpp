@@ -12,6 +12,10 @@ using std::endl;
 #include <vector>
 using std::vector;
 
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+
 void testNames();
 void shouldNotCompile();
 
@@ -26,6 +30,8 @@ int main()
 	d.assignOutfit(&o);
 	cout << d.getSPECIAL() << endl;
 
+
+	_CrtDumpMemoryLeaks();
 	return 0;
 }
 

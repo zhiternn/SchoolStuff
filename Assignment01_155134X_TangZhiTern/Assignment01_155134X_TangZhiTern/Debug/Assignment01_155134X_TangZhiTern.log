@@ -1,26 +1,19 @@
-﻿Build started 12/7/2015 8:58:57 PM.
-     1>Project "C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/10/2015 8:17:07 PM.
+     1>Project "C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dweller.cpp GameObject.cpp Item.cpp Outfit.cpp Weapon.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         Weapon.cpp
-         Outfit.cpp
-         Item.cpp
-         GameObject.cpp
-         Dweller.cpp
-         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.lib" /MACHINE:X86 Debug\Dweller.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.lib" /MACHINE:X86 Debug\Dweller.obj
          Debug\GameObject.obj
          Debug\Item.obj
          Debug\main.obj
          Debug\Outfit.obj
          Debug\Vec2D.obj
          Debug\Weapon.obj
-         LINK : C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.exe not found or not built by the last incremental link; performing full link
-         Assignment01_155134X_TangZhiTern.vcxproj -> C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.exe
-     1>Done Building Project "C:\Users\155134X\Desktop\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern.vcxproj" (Build target(s)).
+         Assignment01_155134X_TangZhiTern.vcxproj -> C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Debug\Assignment01_155134X_TangZhiTern.exe
+     1>Done Building Project "C:\Users\155134X\Desktop\SchoolStuff\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern\Assignment01_155134X_TangZhiTern.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.51
+Time Elapsed 00:00:00.66

@@ -1,8 +1,24 @@
+/******************************************************************************/
+/*!
+\file	Weapon.h
+\author Tang Zhi Tern
+\par	email: 155134X@mymail.nyp.edu.sg
+\brief
+Class to define a weapon
+*/
+/******************************************************************************/
+
 #ifndef	WEAPON_H
 #define	WEAPON_H
 
 #include "Item.h"
 
+/****************************************************************************/
+/*!
+Class Outfit: public Item
+\brief	a class that defines a weapon
+*/
+/****************************************************************************/
 class Weapon : public Item{
 public:
 	Weapon(const string& kName, const int& durability_, const int& kAttackDmg);

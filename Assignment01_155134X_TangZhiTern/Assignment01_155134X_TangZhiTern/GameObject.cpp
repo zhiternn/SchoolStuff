@@ -1,21 +1,23 @@
 /******************************************************************************/
 /*!
-\file	GameObject.h
+\file	GameObject.cpp
 \author Tang Zhi Tern
 \par	email: 155134X@mymail.nyp.edu.sg
 \brief
-Counts and assign names to Objects existing in game
+Class to define a game object
 */
 /******************************************************************************/
+
 #include "GameObject.h"
 
 int GameObject::count_ = 0;
 /******************************************************************************/
 /*!
 \brief
-Parameter Constructor - Also counts number of objects created
+Parameter Constructor - Assign Name and count number of objects created
 
-\param kName - Name of object
+\param kName
+	Name of object
 
 \exception None
 \return None
@@ -29,13 +31,9 @@ kName(kName)
 
 /******************************************************************************/
 /*!
-\brief
-Destructor - Also counts number of objects deleted
+\brief	GameObject virtual destructor
 
-\param None
-
-\exception None
-\return None
+Also counts number of objects deleted
 */
 /******************************************************************************/
 GameObject::~GameObject()
@@ -47,6 +45,9 @@ GameObject::~GameObject()
 /*!
 \brief
 Return the name of Object calling this function
+
+\param None
+
 \return
 Name of Object
 */
@@ -60,6 +61,9 @@ string GameObject::getName(void)
 /*!
 \brief
 Return number of objects existing in game 
+
+\param None
+
 \return
 Name of Object
 */

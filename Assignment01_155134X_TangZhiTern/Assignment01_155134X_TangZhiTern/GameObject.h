@@ -4,7 +4,7 @@
 \author Tang Zhi Tern
 \par	email: 155134X@mymail.nyp.edu.sg
 \brief
-Counts and assign names to Objects existing in game
+Class to define a game object
 */
 /******************************************************************************/
 
@@ -18,7 +18,7 @@ using std::string;
 /****************************************************************************/
 /*!
 		Class GameObject:
-\brief	Objects existing in game
+\brief	Counts and assign names to Objects existing in game
 */
 /****************************************************************************/
 class GameObject
