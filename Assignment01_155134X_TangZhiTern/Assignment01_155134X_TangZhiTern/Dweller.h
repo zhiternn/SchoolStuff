@@ -25,7 +25,7 @@ Class Dweller: public GameObject
 class Dweller : public GameObject{
 
 public:
-	Dweller(const string& kName, const int& SPECIAL_);
+	Dweller(const string& kName, const int& SPECIAL_ = 0);
 	virtual ~Dweller();
 
 	//GETTERS

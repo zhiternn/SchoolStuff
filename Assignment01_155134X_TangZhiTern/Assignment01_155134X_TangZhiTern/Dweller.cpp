@@ -28,7 +28,7 @@ Parameter Constructor - Initializes all required variables
 Dweller::Dweller(const string& kName, const int& SPECIAL_):
 GameObject(kName),
 position_(Vec2D(0, 0)),
-SPECIAL_(SPECIAL_),
+SPECIAL_(SPECIAL_ > 0 ? SPECIAL_ : 0),
 health_(100),
 radiation_(0),
 stimpak_(0),
