@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.10">
+  <compound refid="classDweller" kind="class"><name>Dweller</name>
+    <member refid="classDweller_1ad769b02386e2060776276f64194811a2" kind="variable"><name>position_</name></member>
+    <member refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" kind="variable"><name>SPECIAL_</name></member>
+    <member refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kind="variable"><name>health_</name></member>
+    <member refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kind="variable"><name>radiation_</name></member>
+    <member refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kind="variable"><name>stimpak_</name></member>
+    <member refid="classDweller_1ad906d73273266b219b7efa2241720601" kind="variable"><name>radaway_</name></member>
+    <member refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kind="variable"><name>outfit_</name></member>
+    <member refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kind="variable"><name>weapon_</name></member>
+    <member refid="classDweller_1ae2ff7f186b5551d1992c45ea2f3a1ab7" kind="function"><name>Dweller</name></member>
+    <member refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" kind="function"><name>~Dweller</name></member>
+    <member refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" kind="function"><name>getSPECIAL</name></member>
+    <member refid="classDweller_1af4683a57d847666230c652174721da72" kind="function"><name>getCurrentHealth</name></member>
+    <member refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" kind="function"><name>getCurrentRadDamage</name></member>
+    <member refid="classDweller_1a7bb025bd8237c76efc510c603334906f" kind="function"><name>getAttackDmg</name></member>
+    <member refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" kind="function"><name>getPosition</name></member>
+    <member refid="classDweller_1adfcdb7d7280bcc4d117d09b90ed24bda" kind="function"><name>setPosition</name></member>
+    <member refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" kind="function"><name>isDead</name></member>
+    <member refid="classDweller_1a28602d72f1ecddec5e189f5fff01744d" kind="function"><name>receiveHealthDamage</name></member>
+    <member refid="classDweller_1a149aff3bc8f4f3e3e969178631bb598b" kind="function"><name>receiveRadDamage</name></member>
+    <member refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" kind="function"><name>receiveEquipmentDamage</name></member>
+    <member refid="classDweller_1a358efd57c9f85e89164d1e16207b568b" kind="function"><name>addStimpak</name></member>
+    <member refid="classDweller_1a0594a1fd9bfc266a877f25ae0821fbb7" kind="function"><name>addRadAway</name></member>
+    <member refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" kind="function"><name>useStimpak</name></member>
+    <member refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" kind="function"><name>useRadAway</name></member>
+    <member refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" kind="function"><name>assignOutfit</name></member>
+    <member refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" kind="function"><name>assignWeapon</name></member>
+    <member refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kind="function"><name>currentMaxHealth</name></member>
+  </compound>
+  <compound refid="classGameObject" kind="class"><name>GameObject</name>
+    <member refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" kind="variable"><name>count_</name></member>
+    <member refid="classGameObject_1a975468b0205494c8809af8260c45f1df" kind="variable"><name>kName</name></member>
+    <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" kind="function"><name>~GameObject</name></member>
+    <member refid="classGameObject_1ab7c8021dd4caa10448c87396db933e94" kind="function"><name>getName</name></member>
+    <member refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" kind="function"><name>getCount</name></member>
+    <member refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" kind="function"><name>GameObject</name></member>
+  </compound>
+  <compound refid="classItem" kind="class"><name>Item</name>
+    <member refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kind="variable"><name>durability_</name></member>
+    <member refid="classItem_1aaa8b917b9ec45b101f4a2ce3fed3d9ff" kind="function"><name>Item</name></member>
+    <member refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" kind="function"><name>~Item</name></member>
+    <member refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kind="function"><name>getDurability</name></member>
+    <member refid="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" kind="function"><name>receiveDamage</name></member>
+  </compound>
+  <compound refid="classOutfit" kind="class"><name>Outfit</name>
+    <member refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" kind="variable"><name>kSPECIAL</name></member>
+    <member refid="classOutfit_1a91389a79d73a48234cd2e38ae69fec38" kind="function"><name>Outfit</name></member>
+    <member refid="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" kind="function"><name>~Outfit</name></member>
+    <member refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" kind="function"><name>getSPECIAL</name></member>
+    <member refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" kind="function"><name>receiveDamage</name></member>
+  </compound>
+  <compound refid="structVec2D" kind="struct"><name>Vec2D</name>
+    <member refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" kind="variable"><name>x</name></member>
+    <member refid="structVec2D_1ace79aa38b9f696905862d607f338b845" kind="variable"><name>y</name></member>
+    <member refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" kind="function"><name>Vec2D</name></member>
+  </compound>
+  <compound refid="classWeapon" kind="class"><name>Weapon</name>
+    <member refid="classWeapon_1a0f219eb852ca4d385443dd9a7d2f0212" kind="variable"><name>kAttackDmg</name></member>
+    <member refid="classWeapon_1ae82570c4bb2ab36421a45484e9ccfd06" kind="function"><name>Weapon</name></member>
+    <member refid="classWeapon_1a420e7ba3d2017e6de3e93eb579cfd3fa" kind="function"><name>~Weapon</name></member>
+    <member refid="classWeapon_1aa68d843906315f5f97f85d464c865aef" kind="function"><name>getAttackDmg</name></member>
+    <member refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" kind="function"><name>receiveDamage</name></member>
+  </compound>
+  <compound refid="Dweller_8cpp" kind="file"><name>Dweller.cpp</name>
+  </compound>
+  <compound refid="Dweller_8h" kind="file"><name>Dweller.h</name>
+  </compound>
+  <compound refid="GameObject_8cpp" kind="file"><name>GameObject.cpp</name>
+  </compound>
+  <compound refid="GameObject_8h" kind="file"><name>GameObject.h</name>
+  </compound>
+  <compound refid="Item_8cpp" kind="file"><name>Item.cpp</name>
+  </compound>
+  <compound refid="Item_8h" kind="file"><name>Item.h</name>
+  </compound>
+  <compound refid="Outfit_8cpp" kind="file"><name>Outfit.cpp</name>
+  </compound>
+  <compound refid="Outfit_8h" kind="file"><name>Outfit.h</name>
+  </compound>
+  <compound refid="Vec2D_8cpp" kind="file"><name>Vec2D.cpp</name>
+  </compound>
+  <compound refid="Vec2D_8h" kind="file"><name>Vec2D.h</name>
+  </compound>
+  <compound refid="Weapon_8cpp" kind="file"><name>Weapon.cpp</name>
+  </compound>
+  <compound refid="Weapon_8h" kind="file"><name>Weapon.h</name>
+  </compound>
+  <compound refid="dir_2aad4f4f771b13a3faefe61aeefd6943" kind="dir"><name>Assignment01_155134X_TangZhiTern</name>
+  </compound>
+</doxygenindex>

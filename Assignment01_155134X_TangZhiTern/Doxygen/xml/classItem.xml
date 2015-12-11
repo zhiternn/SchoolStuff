@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classItem" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Item</compoundname>
+    <basecompoundref refid="classGameObject" prot="public" virt="non-virtual">GameObject</basecompoundref>
+    <derivedcompoundref refid="classOutfit" prot="public" virt="non-virtual">Outfit</derivedcompoundref>
+    <derivedcompoundref refid="classWeapon" prot="public" virt="non-virtual">Weapon</derivedcompoundref>
+    <includes refid="Item_8h" local="no">Item.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classItem_1aa565c4091f6ac0634d762fb250128cee" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Item::durability_</definition>
+        <argsstring></argsstring>
+        <name>durability_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="38" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="52" endline="55">getDurability</referencedby>
+        <referencedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" compoundref="Weapon_8cpp" startline="71" endline="77">Weapon::receiveDamage</referencedby>
+        <referencedby refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" compoundref="Outfit_8cpp" startline="69" endline="75">Outfit::receiveDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classItem_1aaa8b917b9ec45b101f4a2ce3fed3d9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Item::Item</definition>
+        <argsstring>(const string &amp;kName, const int &amp;durability_)</argsstring>
+        <name>Item</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>kName</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>durability_</declname>
+        </param>
+        <briefdescription>
+<para>Parameter Constructor - Assign name and durability to an item. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>kName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>durability_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>durability of item</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Item::~Item</definition>
+        <argsstring>()</argsstring>
+        <name>~Item</name>
+        <briefdescription>
+<para><ref refid="classItem" kindref="compound">Item</ref> virtual destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const int</type>
+        <definition>const int Item::getDurability</definition>
+        <argsstring>()</argsstring>
+        <name>getDurability</name>
+        <briefdescription>
+<para>get durability of item calling this function </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>item durability </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="28" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="52" bodyend="55"/>
+        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">durability_</references>
+        <referencedby refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" compoundref="Dweller_8cpp" startline="327" endline="337">Dweller::assignOutfit</referencedby>
+        <referencedby refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" compoundref="Dweller_8cpp" startline="352" endline="362">Dweller::assignWeapon</referencedby>
+        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="222" endline="236">Dweller::receiveEquipmentDamage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Item::receiveDamage</definition>
+        <argsstring>(const int &amp;damage)=0</argsstring>
+        <name>receiveDamage</name>
+        <reimplementedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9">receiveDamage</reimplementedby>
+        <reimplementedby refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436">receiveDamage</reimplementedby>
+        <param>
+          <type>const int &amp;</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>provides durability for items </para>    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="classItem" kindref="compound">Item</ref>: public <ref refid="classGameObject" kindref="compound">GameObject</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>Outfit</label>
+        <link refid="classOutfit"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Weapon</label>
+        <link refid="classWeapon"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>string</label>
+      </node>
+      <node id="69">
+        <label>Item</label>
+        <link refid="classItem"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>durability_</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>int</label>
+      </node>
+      <node id="70">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>count_</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>kName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01_155134X_TangZhiTern/Item.h" line="22" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="22" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classItem_1aa565c4091f6ac0634d762fb250128cee" prot="protected" virt="non-virtual"><scope>Item</scope><name>durability_</name></member>
+      <member refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" prot="protected" virt="non-virtual"><scope>Item</scope><name>GameObject</name></member>
+      <member refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" prot="public" virt="non-virtual"><scope>Item</scope><name>getCount</name></member>
+      <member refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" prot="public" virt="non-virtual"><scope>Item</scope><name>getDurability</name></member>
+      <member refid="classGameObject_1ab7c8021dd4caa10448c87396db933e94" prot="public" virt="non-virtual"><scope>Item</scope><name>getName</name></member>
+      <member refid="classItem_1aaa8b917b9ec45b101f4a2ce3fed3d9ff" prot="public" virt="non-virtual"><scope>Item</scope><name>Item</name></member>
+      <member refid="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" prot="public" virt="pure-virtual"><scope>Item</scope><name>receiveDamage</name></member>
+      <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" virt="virtual"><scope>Item</scope><name>~GameObject</name></member>
+      <member refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" virt="virtual"><scope>Item</scope><name>~Item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

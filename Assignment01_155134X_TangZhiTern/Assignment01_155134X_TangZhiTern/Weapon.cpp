@@ -27,7 +27,7 @@ Class to define a weapon
 /******************************************************************************/
 Weapon::Weapon(const string& kName, const int& durability_, const int& kAttackDmg) :
 Item(kName, durability_),
-kAttackDmg(kAttackDmg)
+kAttackDmg(kAttackDmg > 0 ? kAttackDmg : 0)
 {
 }
 

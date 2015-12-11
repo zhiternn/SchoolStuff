@@ -1,0 +1,4 @@
+<map id="Dweller::currentMaxHealth" name="Dweller::currentMaxHealth">
+<area shape="rect" id="node2" href="$classDweller.html#a149aff3bc8f4f3e3e969178631bb598b" title="increases radiation amount of dweller " alt="" coords="228,5,411,32"/>
+<area shape="rect" id="node3" href="$classDweller.html#a141c51a497020e45f3d1bf61c6f50167" title="uses Stimpak on dweller calling this function " alt="" coords="249,56,390,83"/>
+</map>

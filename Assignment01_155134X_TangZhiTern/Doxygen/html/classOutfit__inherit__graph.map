@@ -1,0 +1,4 @@
+<map id="Outfit" name="Outfit">
+<area shape="rect" id="node2" href="$classItem.html" title="provides durability for items " alt="" coords="29,80,76,107"/>
+<area shape="rect" id="node3" href="$classGameObject.html" title="Counts and assign names to Objects existing in game. " alt="" coords="5,5,100,32"/>
+</map>

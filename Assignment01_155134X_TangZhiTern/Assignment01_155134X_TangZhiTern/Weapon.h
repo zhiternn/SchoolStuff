@@ -21,7 +21,7 @@ Class Outfit: public Item
 /****************************************************************************/
 class Weapon : public Item{
 public:
-	Weapon(const string& kName, const int& durability_, const int& kAttackDmg);
+	Weapon(const string& kName, const int& durability_ , const int& kAttackDmg = 0);
 	virtual ~Weapon();
 
 	//GETTERS

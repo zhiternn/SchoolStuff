@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="structVec2D" kind="struct" language="C++" prot="public">
+    <compoundname>Vec2D</compoundname>
+    <includes refid="Vec2D_8h" local="no">Vec2D.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVec2D_1ace79aa38b9f696905862d607f338b845" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::Vec2D</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>Vec2D</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Parameter Constructor - initializes X,Y coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="22" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.cpp" bodystart="26" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>provides X,Y coordinate to indicate position </para>    </briefdescription>
+    <detaileddescription>
+<para>Struct <ref refid="structVec2D" kindref="compound">Vec2D</ref>: </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="83">
+        <label>double</label>
+      </node>
+      <node id="82">
+        <label>Vec2D</label>
+        <link refid="structVec2D"/>
+        <childnode refid="83" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="21" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="20" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
+      <member refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>x</name></member>
+      <member refid="structVec2D_1ace79aa38b9f696905862d607f338b845" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

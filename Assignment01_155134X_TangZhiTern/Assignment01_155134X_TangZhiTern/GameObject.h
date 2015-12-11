@@ -36,7 +36,7 @@ public:
 
 	//OTHERS
 protected:
-	GameObject(const string& kName);
+	GameObject(const string& kName = "");
 
 private:
 	static int count_;

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="Item_8h" kind="file" language="C++">
+    <compoundname>Item.h</compoundname>
+    <includes refid="GameObject_8h" local="yes">GameObject.h</includes>
+    <includedby refid="Outfit_8h" local="yes">Assignment01_155134X_TangZhiTern/Outfit.h</includedby>
+    <includedby refid="Weapon_8h" local="yes">Assignment01_155134X_TangZhiTern/Weapon.h</includedby>
+    <includedby refid="Item_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Item.cpp</includedby>
+    <incdepgraph>
+      <node id="127">
+        <label>string</label>
+      </node>
+      <node id="125">
+        <label>Assignment01_155134X_TangZhiTern/Item.h</label>
+        <link refid="Item.h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>GameObject.h</label>
+        <link refid="GameObject_8h"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="130">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
+        <link refid="Weapon_8h"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
+        <link refid="Outfit_8cpp"/>
+      </node>
+      <node id="131">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
+        <link refid="Dweller_8cpp"/>
+      </node>
+      <node id="128">
+        <label>Assignment01_155134X_TangZhiTern/Item.h</label>
+        <link refid="Item.h"/>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>Assignment01_155134X_TangZhiTern/Item.cpp</label>
+        <link refid="Item_8cpp"/>
+      </node>
+      <node id="129">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.h</label>
+        <link refid="Outfit_8h"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>Assignment01_155134X_TangZhiTern/Weapon.cpp</label>
+        <link refid="Weapon_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classItem" prot="public">Item</innerclass>
+    <briefdescription>
+<para>Class for item objects. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
+<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ITEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ITEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="GameObject_8h" kindref="compound">GameObject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classItem" kindref="compound">Item</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classGameObject" kindref="compound">GameObject</ref>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classItem_1aaa8b917b9ec45b101f4a2ce3fed3d9ff" kindref="member">Item</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/><ref refid="classGameObject_1a975468b0205494c8809af8260c45f1df" kindref="member">kName</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kindref="member">durability_</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" kindref="member">~Item</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GETTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SETTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ISTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OTHERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" kindref="member">receiveDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38" refid="classItem_1aa565c4091f6ac0634d762fb250128cee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kindref="member">durability_</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="Assignment01_155134X_TangZhiTern/Item.h"/>
+  </compounddef>
+</doxygen>

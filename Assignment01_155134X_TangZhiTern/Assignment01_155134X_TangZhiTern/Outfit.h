@@ -21,7 +21,7 @@ Class to define an outfit
 /****************************************************************************/
 class Outfit : public Item{
 public:
-	Outfit(const string& kName, const int& durability_, const int& kSPECIAL);
+	Outfit(const string& KName, const int& durability_, const int& kSPECIAL = 0);
 	virtual ~Outfit();
 
 	//GETTERS

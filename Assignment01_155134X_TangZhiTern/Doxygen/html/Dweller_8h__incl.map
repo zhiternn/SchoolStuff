@@ -1,0 +1,7 @@
+<map id="Assignment01_155134X_TangZhiTern/Dweller.h" name="Assignment01_155134X_TangZhiTern/Dweller.h">
+<area shape="rect" id="node2" href="$GameObject_8h.html" title="Class to define a game object. " alt="" coords="17,244,124,271"/>
+<area shape="rect" id="node4" href="$Vec2D_8h.html" title="Struct to store position. " alt="" coords="25,95,97,121"/>
+<area shape="rect" id="node5" href="$Outfit_8h.html" title="Class to define an outfit. " alt="" coords="121,95,185,121"/>
+<area shape="rect" id="node7" href="$Weapon_8h.html" title="Class to define a weapon. " alt="" coords="210,95,291,121"/>
+<area shape="rect" id="node6" href="$Item_8h.html" title="Class for item objects. " alt="" coords="124,169,183,196"/>
+</map>

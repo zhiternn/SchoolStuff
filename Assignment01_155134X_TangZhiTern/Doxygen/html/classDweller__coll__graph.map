@@ -1,0 +1,7 @@
+<map id="Dweller" name="Dweller">
+<area shape="rect" id="node2" href="$classGameObject.html" title="Counts and assign names to Objects existing in game. " alt="" coords="142,95,237,121"/>
+<area shape="rect" id="node8" href="$classItem.html" title="provides durability for items " alt="" coords="243,207,290,234"/>
+<area shape="rect" id="node7" href="$classOutfit.html" title="a class that defines an outfit " alt="" coords="243,335,296,361"/>
+<area shape="rect" id="node9" href="$classWeapon.html" title="a class that defines a weapon " alt="" coords="91,335,162,361"/>
+<area shape="rect" id="node5" href="$structVec2D.html" title="provides X,Y coordinate to indicate position " alt="" coords="5,335,67,361"/>
+</map>
