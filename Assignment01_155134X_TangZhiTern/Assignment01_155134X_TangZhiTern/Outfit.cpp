@@ -2,7 +2,7 @@
 /*!
 \file	Outfit.cpp
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
+\par	email: 155134X\@mymail.nyp.edu.sg
 \brief
 Class to define an outfit
 */
@@ -20,9 +20,6 @@ Class to define an outfit
 	durability of item
 \param kSPECIAL
 	SPECIAL value of outfit
-
-\exception None
-\return None
 */
 /******************************************************************************/
 Outfit::Outfit(const string& kName, const int& durability_, const int& kSPECIAL):
@@ -44,9 +41,6 @@ Outfit::~Outfit()
 /*!
 \brief get SPECIAL value of outfit
 
-\param None
-
-\exception None
 \return SPECIAL value of outfit
 */
 /******************************************************************************/
@@ -61,9 +55,6 @@ const int Outfit::getSPECIAL()
 
 \param damage
 	damage to be taken by outfit
-
-\exception None
-\return None
 */
 /******************************************************************************/
 void Outfit::receiveDamage(const int& damage)

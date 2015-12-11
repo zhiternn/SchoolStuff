@@ -2,9 +2,8 @@
 /*!
 \file	GameObject.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
-\brief
-Class to define a game object
+\par	email: 155134X\@mymail.nyp.edu.sg
+\brief Class to define a game object
 */
 /******************************************************************************/
 

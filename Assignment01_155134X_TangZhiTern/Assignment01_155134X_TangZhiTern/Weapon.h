@@ -2,7 +2,7 @@
 /*!
 \file	Weapon.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
+\par	email: 155134X\@mymail.nyp.edu.sg
 \brief
 Class to define a weapon
 */

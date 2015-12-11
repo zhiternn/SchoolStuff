@@ -2,7 +2,7 @@
 /*!
 \file	GameObject.cpp
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
+\par	email: 155134X\@mymail.nyp.edu.sg
 \brief
 Class to define a game object
 */
@@ -44,7 +44,7 @@ GameObject::~GameObject()
 /*!
 \brief Return the name of Object calling this function
 
-\param None
+\param
 
 \return
 Name of Object
@@ -59,7 +59,7 @@ string GameObject::getName(void)
 /*!
 \brief get number of objects existing in game 
 
-\param None
+\param
 
 \return
 number of objects created

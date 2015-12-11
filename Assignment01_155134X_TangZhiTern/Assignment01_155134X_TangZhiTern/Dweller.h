@@ -2,9 +2,8 @@
 /*!
 \file	Dweller.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
-\brief
-Class to define a Dweller and its methods
+\par	email: 155134X\@mymail.nyp.edu.sg
+\brief Class to define a Dweller and its methods
 */
 /******************************************************************************/
 

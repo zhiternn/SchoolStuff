@@ -18,10 +18,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="38" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="38" bodyend="-1"/>
-        <referencedby refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="52" endline="55">getDurability</referencedby>
-        <referencedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" compoundref="Weapon_8cpp" startline="71" endline="77">Weapon::receiveDamage</referencedby>
-        <referencedby refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" compoundref="Outfit_8cpp" startline="69" endline="75">Outfit::receiveDamage</referencedby>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="37" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" compoundref="Item_8cpp" startline="53" endline="56">getDurability</referencedby>
+        <referencedby refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" compoundref="Outfit_8cpp" startline="60" endline="66">Outfit::receiveDamage</referencedby>
+        <referencedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" compoundref="Weapon_8cpp" startline="62" endline="68">Weapon::receiveDamage</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -68,7 +68,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="27" bodyend="31"/>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="23" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="28" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classItem_1a11663c84075b78c3ae5e30fdfcd7c458" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="38" bodyend="40"/>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="39" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const int</type>
@@ -93,38 +93,28 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<parameterlist kind="exception"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>item durability </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="28" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="52" bodyend="55"/>
-        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">durability_</references>
-        <referencedby refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" compoundref="Dweller_8cpp" startline="318" endline="328">Dweller::assignOutfit</referencedby>
-        <referencedby refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" compoundref="Dweller_8cpp" startline="343" endline="353">Dweller::assignWeapon</referencedby>
-        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="136" endline="144">Dweller::getAttackDmg</referencedby>
-        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="65" endline="90">Dweller::getSPECIAL</referencedby>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="27" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="53" bodyend="56"/>
+        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="37">durability_</references>
+        <referencedby refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" compoundref="Dweller_8cpp" startline="284" endline="294">Dweller::assignOutfit</referencedby>
+        <referencedby refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" compoundref="Dweller_8cpp" startline="309" endline="319">Dweller::assignWeapon</referencedby>
+        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="120" endline="128">Dweller::getAttackDmg</referencedby>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="57" endline="82">Dweller::getSPECIAL</referencedby>
       </memberdef>
       <memberdef kind="function" id="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void Item::receiveDamage</definition>
         <argsstring>(const int &amp;damage)=0</argsstring>
         <name>receiveDamage</name>
-        <reimplementedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9">receiveDamage</reimplementedby>
         <reimplementedby refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436">receiveDamage</reimplementedby>
+        <reimplementedby refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9">receiveDamage</reimplementedby>
         <param>
           <type>const int &amp;</type>
           <declname>damage</declname>
@@ -135,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="35" column="1"/>
+        <location file="Assignment01_155134X_TangZhiTern/Item.h" line="34" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -193,7 +183,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Assignment01_155134X_TangZhiTern/Item.h" line="22" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="22" bodyend="42"/>
+    <location file="Assignment01_155134X_TangZhiTern/Item.h" line="21" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.h" bodystart="21" bodyend="41"/>
     <listofallmembers>
       <member refid="classItem_1aa565c4091f6ac0634d762fb250128cee" prot="protected" virt="non-virtual"><scope>Item</scope><name>durability_</name></member>
       <member refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" prot="protected" virt="non-virtual"><scope>Item</scope><name>GameObject</name></member>

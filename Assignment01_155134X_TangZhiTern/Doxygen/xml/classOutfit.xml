@@ -16,8 +16,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="39" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.h" bodystart="39" bodyend="-1"/>
-        <referencedby refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" compoundref="Outfit_8cpp" startline="53" endline="56">getSPECIAL</referencedby>
+        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="38" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" compoundref="Outfit_8cpp" startline="47" endline="50">getSPECIAL</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -62,22 +62,13 @@
 <parametername>kSPECIAL</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>SPECIAL value of outfit</para></parameterdescription>
+<para>SPECIAL value of outfit </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<parameterlist kind="exception"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>None </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="28" bodyend="32"/>
+        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="23" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="25" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -90,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="39" bodyend="41"/>
+        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="36" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const int</type>
@@ -100,29 +91,13 @@
         <briefdescription>
 <para>get SPECIAL value of outfit </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<parameterlist kind="exception"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>SPECIAL value of outfit </para></simplesect>
+<para><simplesect kind="return"><para>SPECIAL value of outfit </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="28" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="53" bodyend="56"/>
-        <references refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" compoundref="Outfit_8h" startline="39">kSPECIAL</references>
-        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="65" endline="90">Dweller::getSPECIAL</referencedby>
+        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="27" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="47" bodyend="50"/>
+        <references refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" compoundref="Outfit_8h" startline="38">kSPECIAL</references>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="57" endline="82">Dweller::getSPECIAL</referencedby>
       </memberdef>
       <memberdef kind="function" id="classOutfit_1a3aa715a747b488a7b1498a01107b5436" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -142,24 +117,15 @@
 <parametername>damage</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>damage to be taken by outfit</para></parameterdescription>
+<para>damage to be taken by outfit </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<parameterlist kind="exception"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>None </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="35" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="69" bodyend="75"/>
-        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">Item::durability_</references>
-        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="221" endline="227">Dweller::receiveEquipmentDamage</referencedby>
+        <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="34" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="60" bodyend="66"/>
+        <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="37">Item::durability_</references>
+        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="195" endline="201">Dweller::receiveEquipmentDamage</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -220,7 +186,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="22" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.h" bodystart="22" bodyend="40"/>
+    <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="21" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.h" bodystart="21" bodyend="39"/>
     <listofallmembers>
       <member refid="classItem_1aa565c4091f6ac0634d762fb250128cee" prot="protected" virt="non-virtual"><scope>Outfit</scope><name>durability_</name></member>
       <member refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" prot="protected" virt="non-virtual"><scope>Outfit</scope><name>GameObject</name></member>

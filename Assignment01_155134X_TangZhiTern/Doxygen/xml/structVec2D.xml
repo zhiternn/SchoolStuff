@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="24" bodyend="-1"/>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="23" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structVec2D_1ace79aa38b9f696905862d607f338b845" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="25" bodyend="-1"/>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,22 +60,13 @@
 <parametername>y</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Y coordinate</para></parameterdescription>
+<para>Y coordinate </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<parameterlist kind="exception"><parameteritem>
-<parameternamelist>
-<parametername>None</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>None </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="22" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.cpp" bodystart="26" bodyend="30"/>
+        <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="21" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.cpp" bodystart="22" bodyend="26"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -95,7 +86,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="21" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="20" bodyend="26"/>
+    <location file="Assignment01_155134X_TangZhiTern/Vec2D.h" line="20" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Vec2D.h" bodystart="19" bodyend="25"/>
     <listofallmembers>
       <member refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
       <member refid="structVec2D_1a9a4542122d7f2bd28dcd529c9a62edd0" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>x</name></member>

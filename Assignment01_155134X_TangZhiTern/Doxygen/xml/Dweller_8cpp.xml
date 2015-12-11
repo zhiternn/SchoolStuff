@@ -4,15 +4,32 @@
     <compoundname>Dweller.cpp</compoundname>
     <includes refid="Dweller_8h" local="yes">Dweller.h</includes>
     <incdepgraph>
-      <node id="90">
-        <label>Vec2D.h</label>
-        <link refid="Vec2D_8h"/>
+      <node id="87">
+        <label>Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>Weapon.h</label>
+        <link refid="Weapon_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
       </node>
       <node id="86">
         <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
         <link refid="Dweller.cpp"/>
         <childnode refid="87" relation="include">
         </childnode>
+      </node>
+      <node id="89">
+        <label>string</label>
       </node>
       <node id="92">
         <label>Item.h</label>
@@ -26,249 +43,236 @@
         <childnode refid="92" relation="include">
         </childnode>
       </node>
-      <node id="89">
-        <label>string</label>
-      </node>
-      <node id="93">
-        <label>Weapon.h</label>
-        <link refid="Weapon_8h"/>
-        <childnode refid="92" relation="include">
-        </childnode>
-      </node>
       <node id="88">
         <label>GameObject.h</label>
         <link refid="GameObject_8h"/>
         <childnode refid="89" relation="include">
         </childnode>
       </node>
-      <node id="87">
-        <label>Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="88" relation="include">
-        </childnode>
-        <childnode refid="90" relation="include">
-        </childnode>
-        <childnode refid="91" relation="include">
-        </childnode>
-        <childnode refid="93" relation="include">
-        </childnode>
+      <node id="90">
+        <label>Vec2D.h</label>
+        <link refid="Vec2D_8h"/>
       </node>
     </incdepgraph>
     <briefdescription>
 <para>Class to define a <ref refid="classDweller" kindref="compound">Dweller</ref> and its methods. </para>    </briefdescription>
     <detaileddescription>
 <para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
-<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+<simplesect kind="par"><title>email: 155134X@mymail.nyp.edu.sg</title><para></para></simplesect>
 </para>    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="9"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Dweller_8h" kindref="compound">Dweller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="27"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classDweller_1ae2ff7f186b5551d1992c45ea2f3a1ab7" refkind="member"><highlight class="normal"><ref refid="classDweller_1ae2ff7f186b5551d1992c45ea2f3a1ab7" kindref="member">Dweller::Dweller</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>kName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>SPECIAL_):</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><ref refid="classGameObject" kindref="compound">GameObject</ref>(kName),</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">position_(<ref refid="structVec2D" kindref="compound">Vec2D</ref>(0,<sp/>0)),</highlight></codeline>
-<codeline lineno="31"><highlight class="normal">SPECIAL_(SPECIAL_),</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">health_(100),</highlight></codeline>
-<codeline lineno="33"><highlight class="normal">radiation_(0),</highlight></codeline>
-<codeline lineno="34"><highlight class="normal">stimpak_(0),</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">radaway_(0),</highlight></codeline>
-<codeline lineno="36"><highlight class="normal">outfit_(nullptr),</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">weapon_(nullptr)</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="45"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" refkind="member"><highlight class="normal"><ref refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" kindref="member">Dweller::~Dweller</ref>()</highlight></codeline>
-<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="64"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" kindref="member">Dweller::getSPECIAL</ref>()</highlight></codeline>
-<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref><sp/>&amp;&amp;<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outfitSPECIAL<sp/>=<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" kindref="member">getSPECIAL</ref>();</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dwellerSPECIAL<sp/>=<sp/><ref refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" kindref="member">SPECIAL_</ref>;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pow<sp/>=<sp/>1;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totalSPECIAL<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Dweller_8h" kindref="compound">Dweller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classDweller_1a6c5b10dfd36791ac93fc7b15e9a46275" refkind="member"><highlight class="normal"><ref refid="classDweller_1a6c5b10dfd36791ac93fc7b15e9a46275" kindref="member">Dweller::Dweller</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>kName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>SPECIAL_):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="classGameObject" kindref="compound">GameObject</ref>(kName),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">position_(<ref refid="structVec2D" kindref="compound">Vec2D</ref>(0,<sp/>0)),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">SPECIAL_(SPECIAL_<sp/>&gt;<sp/>0<sp/>?<sp/>SPECIAL_<sp/>:<sp/>0),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">health_(100),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">radiation_(0),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">stimpak_(0),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">radaway_(0),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">outfit_(nullptr),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">weapon_(nullptr)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" refkind="member"><highlight class="normal"><ref refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" kindref="member">Dweller::~Dweller</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" kindref="member">Dweller::getSPECIAL</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref><sp/>&amp;&amp;<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>outfitSPECIAL<sp/>=<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" kindref="member">getSPECIAL</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dwellerSPECIAL<sp/>=<sp/><ref refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" kindref="member">SPECIAL_</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pow<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totalSPECIAL<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>7;<sp/>++i){</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outfitSPECIAL<sp/>%<sp/>10<sp/>+<sp/>dwellerSPECIAL<sp/>%<sp/>10<sp/>&gt;<sp/>9){</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totalSPECIAL<sp/>+=<sp/>9<sp/>*<sp/>pow;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totalSPECIAL<sp/>+=<sp/>((outfitSPECIAL<sp/>%<sp/>10)<sp/>+<sp/>(dwellerSPECIAL<sp/>%<sp/>10))<sp/>*<sp/>pow;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>7;<sp/>++i){</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outfitSPECIAL<sp/>%<sp/>10<sp/>+<sp/>dwellerSPECIAL<sp/>%<sp/>10<sp/>&gt;<sp/>9){</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totalSPECIAL<sp/>+=<sp/>9<sp/>*<sp/>pow;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totalSPECIAL<sp/>+=<sp/>((outfitSPECIAL<sp/>%<sp/>10)<sp/>+<sp/>(dwellerSPECIAL<sp/>%<sp/>10))<sp/>*<sp/>pow;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outfitSPECIAL<sp/>/=<sp/>10;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dwellerSPECIAL<sp/>/=<sp/>10;</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pow<sp/>*=<sp/>10;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totalSPECIAL;</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" kindref="member">SPECIAL_</ref>;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="101"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="classDweller_1af4683a57d847666230c652174721da72" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1af4683a57d847666230c652174721da72" kindref="member">Dweller::getCurrentHealth</ref>()</highlight></codeline>
-<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref>;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="117"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" kindref="member">Dweller::getCurrentRadDamage</ref>()</highlight></codeline>
-<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
-<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="135"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="classDweller_1a7bb025bd8237c76efc510c603334906f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a7bb025bd8237c76efc510c603334906f" kindref="member">Dweller::getAttackDmg</ref>()</highlight></codeline>
-<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref><sp/>&amp;&amp;<sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classWeapon_1aa68d843906315f5f97f85d464c865aef" kindref="member">getAttackDmg</ref>();</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="155"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="156" refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structVec2D" kindref="compound">Vec2D</ref><sp/><ref refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" kindref="member">Dweller::getPosition</ref>()</highlight></codeline>
-<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad769b02386e2060776276f64194811a2" kindref="member">position_</ref>;</highlight></codeline>
-<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="170"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="classDweller_1adfcdb7d7280bcc4d117d09b90ed24bda" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1adfcdb7d7280bcc4d117d09b90ed24bda" kindref="member">Dweller::setPosition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structVec2D" kindref="compound">Vec2D</ref>&amp;<sp/>position_)</highlight></codeline>
-<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;position_<sp/>=<sp/><ref refid="classDweller_1ad769b02386e2060776276f64194811a2" kindref="member">position_</ref>;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="185"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="classDweller_1a28602d72f1ecddec5e189f5fff01744d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a28602d72f1ecddec5e189f5fff01744d" kindref="member">Dweller::receiveHealthDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage)</highlight></codeline>
-<codeline lineno="187"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>-=<sp/>damage;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="202"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="classDweller_1a149aff3bc8f4f3e3e969178631bb598b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a149aff3bc8f4f3e3e969178631bb598b" kindref="member">Dweller::receiveRadDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>radiation_)</highlight></codeline>
-<codeline lineno="204"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;radiation_<sp/>+=<sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&gt;<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>()){</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>=<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>();</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="220"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" kindref="member">Dweller::receiveEquipmentDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage)</highlight></codeline>
-<codeline lineno="222"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>)</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" kindref="member">receiveDamage</ref>(damage);</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>)</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" kindref="member">receiveDamage</ref>(damage);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outfitSPECIAL<sp/>/=<sp/>10;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dwellerSPECIAL<sp/>/=<sp/>10;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pow<sp/>*=<sp/>10;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totalSPECIAL;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1adddef783da3277fdee6c05c9b7c40742" kindref="member">SPECIAL_</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="90"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="classDweller_1af4683a57d847666230c652174721da72" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1af4683a57d847666230c652174721da72" kindref="member">Dweller::getCurrentHealth</ref>()</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a337769ac74f98a0a548cbc85aef3e9ae" kindref="member">Dweller::getCurrentRadDamage</ref>()</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classDweller_1a7bb025bd8237c76efc510c603334906f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a7bb025bd8237c76efc510c603334906f" kindref="member">Dweller::getAttackDmg</ref>()</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref><sp/>&amp;&amp;<sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classWeapon_1aa68d843906315f5f97f85d464c865aef" kindref="member">getAttackDmg</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="137"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structVec2D" kindref="compound">Vec2D</ref><sp/><ref refid="classDweller_1a934158ebdf06d51169f33cfcdb61d29d" kindref="member">Dweller::getPosition</ref>()</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad769b02386e2060776276f64194811a2" kindref="member">position_</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="150"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="classDweller_1adfcdb7d7280bcc4d117d09b90ed24bda" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1adfcdb7d7280bcc4d117d09b90ed24bda" kindref="member">Dweller::setPosition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structVec2D" kindref="compound">Vec2D</ref>&amp;<sp/>position_)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;position_<sp/>=<sp/><ref refid="classDweller_1ad769b02386e2060776276f64194811a2" kindref="member">position_</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="163"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="classDweller_1a28602d72f1ecddec5e189f5fff01744d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a28602d72f1ecddec5e189f5fff01744d" kindref="member">Dweller::receiveHealthDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>-=<sp/>damage;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="178"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="classDweller_1a149aff3bc8f4f3e3e969178631bb598b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a149aff3bc8f4f3e3e969178631bb598b" kindref="member">Dweller::receiveRadDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>radiation_)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;radiation_<sp/>+=<sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&gt;<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>()){</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>=<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="194"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" kindref="member">Dweller::receiveEquipmentDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>-&gt;<ref refid="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" kindref="member">receiveDamage</ref>(damage);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>-&gt;<ref refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" kindref="member">receiveDamage</ref>(damage);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="210"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="classDweller_1a358efd57c9f85e89164d1e16207b568b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a358efd57c9f85e89164d1e16207b568b" kindref="member">Dweller::addStimpak</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>amount)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kindref="member">stimpak_</ref><sp/>+=<sp/>amount;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="223"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="classDweller_1a0594a1fd9bfc266a877f25ae0821fbb7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a0594a1fd9bfc266a877f25ae0821fbb7" kindref="member">Dweller::addRadAway</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>amount)</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1ad906d73273266b219b7efa2241720601" kindref="member">radaway_</ref><sp/>+=<sp/>amount;</highlight></codeline>
 <codeline lineno="227"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="238"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="classDweller_1a358efd57c9f85e89164d1e16207b568b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a358efd57c9f85e89164d1e16207b568b" kindref="member">Dweller::addStimpak</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>amount)</highlight></codeline>
-<codeline lineno="240"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kindref="member">stimpak_</ref><sp/>+=<sp/>amount;</highlight></codeline>
-<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="253"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="classDweller_1a0594a1fd9bfc266a877f25ae0821fbb7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a0594a1fd9bfc266a877f25ae0821fbb7" kindref="member">Dweller::addRadAway</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>amount)</highlight></codeline>
-<codeline lineno="255"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1ad906d73273266b219b7efa2241720601" kindref="member">radaway_</ref><sp/>+=<sp/>amount;</highlight></codeline>
-<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="270"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="271" refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" kindref="member">Dweller::useStimpak</ref>()</highlight></codeline>
-<codeline lineno="272"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>+<sp/>20<sp/>&gt;<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>()){</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>=<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>();</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>+=<sp/>20;</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kindref="member">stimpak_</ref>--;</highlight></codeline>
-<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="293"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" kindref="member">Dweller::useRadAway</ref>()</highlight></codeline>
-<codeline lineno="295"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>-<sp/>10<sp/>&lt;<sp/>0){</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>-=<sp/>10;</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ad906d73273266b219b7efa2241720601" kindref="member">radaway_</ref>--;</highlight></codeline>
-<codeline lineno="303"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="317"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="318" refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" refkind="member"><highlight class="normal"><ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/><ref refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" kindref="member">Dweller::assignOutfit</ref>(<ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/>outfit_)</highlight></codeline>
-<codeline lineno="319"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outfit_-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
-<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/>oldOutfit(this-&gt;outfit_);</highlight></codeline>
-<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;outfit_<sp/>=<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>;</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oldOutfit;</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>;</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="328"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="342"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" refkind="member"><highlight class="normal"><ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/><ref refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" kindref="member">Dweller::assignWeapon</ref>(<ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/>weapon_)</highlight></codeline>
-<codeline lineno="344"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(weapon_-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/>oldWeapon(this-&gt;weapon_);</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;weapon_<sp/>=<sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>;</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oldWeapon;</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>;</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a141c51a497020e45f3d1bf61c6f50167" kindref="member">Dweller::useStimpak</ref>()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kindref="member">stimpak_</ref><sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>+<sp/>20<sp/>&gt;<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>()){</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>=<sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">currentMaxHealth</ref>();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>+=<sp/>20;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a6222543be35513cc47fada0a5bf3547b" kindref="member">stimpak_</ref>--;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="257"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad76a3cd483840971553a615ceba34b5f" kindref="member">Dweller::useRadAway</ref>()</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1ad906d73273266b219b7efa2241720601" kindref="member">radaway_</ref><sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>-<sp/>10<sp/>&lt;<sp/>0){</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref><sp/>-=<sp/>10;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ad906d73273266b219b7efa2241720601" kindref="member">radaway_</ref>--;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="283"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" refkind="member"><highlight class="normal"><ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/><ref refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" kindref="member">Dweller::assignOutfit</ref>(<ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/>outfit_)</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(outfit_-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classOutfit" kindref="compound">Outfit</ref>*<sp/>oldOutfit(this-&gt;outfit_);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;outfit_<sp/>=<sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oldOutfit;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref>;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="308"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" refkind="member"><highlight class="normal"><ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/><ref refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" kindref="member">Dweller::assignWeapon</ref>(<ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/>weapon_)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(weapon_-&gt;<ref refid="classItem_1a26396e7bd1be4d8ab3590dfac9cbca39" kindref="member">getDurability</ref>()<sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classWeapon" kindref="compound">Weapon</ref>*<sp/>oldWeapon(this-&gt;weapon_);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;weapon_<sp/>=<sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oldWeapon;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref>;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="330"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" kindref="member">Dweller::isDead</ref>()</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&lt;=<sp/>0){</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="350"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="classDweller_1ad32d26c744ba8a2688c109769373e376" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">Dweller::currentMaxHealth</ref>(){</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>100<sp/>-<sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
 <codeline lineno="353"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="366"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="367" refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classDweller_1a33bb050f8dd1abba8428d5824ce9725f" kindref="member">Dweller::isDead</ref>()</highlight></codeline>
-<codeline lineno="368"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classDweller_1aff75dc01658d330e51043b86c8ec3e21" kindref="member">health_</ref><sp/>&lt;=<sp/>0){</highlight></codeline>
-<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kindref="member">weapon_</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kindref="member">outfit_</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="377"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="388"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="389" refid="classDweller_1ad32d26c744ba8a2688c109769373e376" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classDweller_1ad32d26c744ba8a2688c109769373e376" kindref="member">Dweller::currentMaxHealth</ref>(){</highlight></codeline>
-<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>100<sp/>-<sp/><ref refid="classDweller_1a82ec290d32407101daa1ce99f951f1c9" kindref="member">radiation_</ref>;</highlight></codeline>
-<codeline lineno="391"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Assignment01_155134X_TangZhiTern/Dweller.cpp"/>
   </compounddef>

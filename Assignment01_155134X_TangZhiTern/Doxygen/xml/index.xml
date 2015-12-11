@@ -9,7 +9,7 @@
     <member refid="classDweller_1ad906d73273266b219b7efa2241720601" kind="variable"><name>radaway_</name></member>
     <member refid="classDweller_1ae660ab1a0a063d9c0d0e075cc66dea87" kind="variable"><name>outfit_</name></member>
     <member refid="classDweller_1a9de50e9f37c490934b9bdc8e258d4382" kind="variable"><name>weapon_</name></member>
-    <member refid="classDweller_1ae2ff7f186b5551d1992c45ea2f3a1ab7" kind="function"><name>Dweller</name></member>
+    <member refid="classDweller_1a6c5b10dfd36791ac93fc7b15e9a46275" kind="function"><name>Dweller</name></member>
     <member refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" kind="function"><name>~Dweller</name></member>
     <member refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" kind="function"><name>getSPECIAL</name></member>
     <member refid="classDweller_1af4683a57d847666230c652174721da72" kind="function"><name>getCurrentHealth</name></member>

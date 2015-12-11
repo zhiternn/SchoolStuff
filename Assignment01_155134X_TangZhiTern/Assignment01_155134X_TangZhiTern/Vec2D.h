@@ -2,9 +2,8 @@
 /*!
 \file	Vec2D.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
-\brief
-Struct to store position
+\par	email: 155134X\@mymail.nyp.edu.sg
+\brief Struct to store position
 */
 /******************************************************************************/
 

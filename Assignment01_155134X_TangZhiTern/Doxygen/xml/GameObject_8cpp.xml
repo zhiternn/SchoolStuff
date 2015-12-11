@@ -4,14 +4,14 @@
     <compoundname>GameObject.cpp</compoundname>
     <includes refid="GameObject_8h" local="yes">GameObject.h</includes>
     <incdepgraph>
+      <node id="106">
+        <label>string</label>
+      </node>
       <node id="104">
         <label>Assignment01_155134X_TangZhiTern/GameObject.cpp</label>
         <link refid="GameObject.cpp"/>
         <childnode refid="105" relation="include">
         </childnode>
-      </node>
-      <node id="106">
-        <label>string</label>
       </node>
       <node id="105">
         <label>GameObject.h</label>
@@ -24,7 +24,7 @@
 <para>Class to define a game object. </para>    </briefdescription>
     <detaileddescription>
 <para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
-<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+<simplesect kind="par"><title>email: 155134X@mymail.nyp.edu.sg</title><para></para></simplesect>
 </para>    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>

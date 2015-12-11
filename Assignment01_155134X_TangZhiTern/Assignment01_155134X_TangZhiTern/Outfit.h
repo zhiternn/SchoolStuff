@@ -2,9 +2,8 @@
 /*!
 \file	Outfit.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
-\brief
-Class to define an outfit
+\par	email: 155134X\@mymail.nyp.edu.sg
+\brief Class to define an outfit
 */
 /******************************************************************************/
 

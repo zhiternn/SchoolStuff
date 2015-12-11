@@ -2,7 +2,7 @@
 /*!
 \file	Weapon.cpp
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
+\par	email: 155134X\@mymail.nyp.edu.sg
 \brief
 Class to define a weapon
 */
@@ -20,9 +20,6 @@ Class to define a weapon
 	durability of item
 \param kSPECIAL
 	attack value of weapon
-
-\exception None
-\return None
 */
 /******************************************************************************/
 Weapon::Weapon(const string& kName, const int& durability_, const int& kAttackDmg) :
@@ -44,9 +41,6 @@ Weapon::~Weapon()
 /*!
 \brief get attack value of weapon
 
-\param None
-
-\exception None
 \return attack value of weapon
 */
 /******************************************************************************/
@@ -63,9 +57,6 @@ durability to be reduced is halved
 
 \param damage
 	damage to be taken by weapon
-
-\exception None
-\return None
 */
 /******************************************************************************/
 void Weapon::receiveDamage(const int& damage)

@@ -1,8 +1,9 @@
 /******************************************************************************/
 /*!
 \file	Item.h
+\file	Item.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
+\par	email: 155134X\@mymail.nyp.edu.sg
 \brief
 Class for item objects
 */
@@ -43,7 +44,7 @@ Item::~Item()
 /*!
 \brief get durability of item calling this function
 
-\param None
+\param
 
 \exception None
 \return item durability

@@ -6,6 +6,9 @@
     <includedby refid="Dweller_8h" local="yes">Assignment01_155134X_TangZhiTern/Dweller.h</includedby>
     <includedby refid="Outfit_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Outfit.cpp</includedby>
     <incdepgraph>
+      <node id="145">
+        <label>string</label>
+      </node>
       <node id="143">
         <label>Item.h</label>
         <link refid="Item_8h"/>
@@ -18,9 +21,6 @@
         <childnode refid="143" relation="include">
         </childnode>
       </node>
-      <node id="145">
-        <label>string</label>
-      </node>
       <node id="144">
         <label>GameObject.h</label>
         <link refid="GameObject_8h"/>
@@ -29,6 +29,16 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="147">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
+        <link refid="Outfit_8cpp"/>
+      </node>
       <node id="148">
         <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
         <link refid="Dweller_8cpp"/>
@@ -41,56 +51,46 @@
         <childnode refid="149" relation="include">
         </childnode>
       </node>
-      <node id="147">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="148" relation="include">
-        </childnode>
-      </node>
-      <node id="149">
-        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
-        <link refid="Outfit_8cpp"/>
-      </node>
     </invincdepgraph>
     <innerclass refid="classOutfit" prot="public">Outfit</innerclass>
     <briefdescription>
 <para>Class to define an outfit. </para>    </briefdescription>
     <detaileddescription>
 <para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
-<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+<simplesect kind="par"><title>email: 155134X@mymail.nyp.edu.sg</title><para></para></simplesect>
 </para>    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="9"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>OUTFIT_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OUTFIT_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Item_8h" kindref="compound">Item.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
-<codeline lineno="21"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classOutfit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classOutfit" kindref="compound">Outfit</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classItem" kindref="compound">Item</ref>{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classOutfit_1a91389a79d73a48234cd2e38ae69fec38" kindref="member">Outfit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>KName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kindref="member">durability_</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" kindref="member">kSPECIAL</ref><sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" kindref="member">~Outfit</ref>();</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GETTERS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" kindref="member">getSPECIAL</ref>();</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SETTERS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ISTERS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OTHERS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" kindref="member">receiveDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39" refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" kindref="member">kSPECIAL</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>OUTFIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OUTFIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Item_8h" kindref="compound">Item.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************/</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">/****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classOutfit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classOutfit" kindref="compound">Outfit</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classItem" kindref="compound">Item</ref>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classOutfit_1a91389a79d73a48234cd2e38ae69fec38" kindref="member">Outfit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>KName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="classItem_1aa565c4091f6ac0634d762fb250128cee" kindref="member">durability_</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/><ref refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" kindref="member">kSPECIAL</ref><sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1a1960e26664a0f6c991c98950e53e0b47" kindref="member">~Outfit</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GETTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1ac62f8f308ad5a60cee90a9bfa8d70d4e" kindref="member">getSPECIAL</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SETTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ISTERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OTHERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1a3aa715a747b488a7b1498a01107b5436" kindref="member">receiveDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>damage);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38" refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classOutfit_1acbd6b2717ab180c33dcff9bea347b154" kindref="member">kSPECIAL</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="Assignment01_155134X_TangZhiTern/Outfit.h"/>
   </compounddef>

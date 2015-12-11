@@ -2,9 +2,8 @@
 /*!
 \file	Item.h
 \author Tang Zhi Tern
-\par	email: 155134X@mymail.nyp.edu.sg
-\brief
-Class for item objects
+\par	email: 155134X\@mymail.nyp.edu.sg
+\brief Class for item objects
 */
 /******************************************************************************/
 

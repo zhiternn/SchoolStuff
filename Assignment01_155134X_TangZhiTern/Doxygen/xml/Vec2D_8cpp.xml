@@ -19,21 +19,21 @@
 <para>Struct to store position. </para>    </briefdescription>
     <detaileddescription>
 <para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
-<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+<simplesect kind="par"><title>email: 155134X@mymail.nyp.edu.sg</title><para></para></simplesect>
 </para>    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="9"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Vec2D_8h" kindref="compound">Vec2D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
-<codeline lineno="25"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" refkind="member"><highlight class="normal"><ref refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" kindref="member">Vec2D::Vec2D</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y)<sp/>:</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">x(x),</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">y(y)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Vec2D_8h" kindref="compound">Vec2D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" refkind="member"><highlight class="normal"><ref refid="structVec2D_1a186133e59a0d977ac8a6e0cd90d81173" kindref="member">Vec2D::Vec2D</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y)<sp/>:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">x(x),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">y(y)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Assignment01_155134X_TangZhiTern/Vec2D.cpp"/>
   </compounddef>

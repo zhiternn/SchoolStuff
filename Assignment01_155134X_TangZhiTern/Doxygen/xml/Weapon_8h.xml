@@ -6,19 +6,19 @@
     <includedby refid="Dweller_8h" local="yes">Assignment01_155134X_TangZhiTern/Dweller.h</includedby>
     <includedby refid="Weapon_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Weapon.cpp</includedby>
     <incdepgraph>
-      <node id="165">
-        <label>Item.h</label>
-        <link refid="Item_8h"/>
-        <childnode refid="166" relation="include">
+      <node id="164">
+        <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
+        <link refid="Weapon.h"/>
+        <childnode refid="165" relation="include">
         </childnode>
       </node>
       <node id="167">
         <label>string</label>
       </node>
-      <node id="164">
-        <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
-        <link refid="Weapon.h"/>
-        <childnode refid="165" relation="include">
+      <node id="165">
+        <label>Item.h</label>
+        <link refid="Item_8h"/>
+        <childnode refid="166" relation="include">
         </childnode>
       </node>
       <node id="166">
@@ -29,9 +29,11 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="170">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
-        <link refid="Dweller_8cpp"/>
+      <node id="169">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="170" relation="include">
+        </childnode>
       </node>
       <node id="168">
         <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
@@ -41,15 +43,13 @@
         <childnode refid="171" relation="include">
         </childnode>
       </node>
+      <node id="170">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
+        <link refid="Dweller_8cpp"/>
+      </node>
       <node id="171">
         <label>Assignment01_155134X_TangZhiTern/Weapon.cpp</label>
         <link refid="Weapon_8cpp"/>
-      </node>
-      <node id="169">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="170" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classWeapon" prot="public">Weapon</innerclass>
@@ -57,7 +57,7 @@
 <para>Class to define a weapon. </para>    </briefdescription>
     <detaileddescription>
 <para><simplesect kind="author"><para>Tang Zhi Tern </para></simplesect>
-<simplesect kind="par"><title>email: 155134X.nyp.edu.sg</title><para></para></simplesect>
+<simplesect kind="par"><title>email: 155134X@mymail.nyp.edu.sg</title><para></para></simplesect>
 </para>    </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/******************************************************************************/</highlight></codeline>

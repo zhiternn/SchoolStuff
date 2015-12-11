@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="42" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="42" bodyend="-1"/>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="41" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="41" bodyend="-1"/>
         <referencedby refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" compoundref="GameObject_8cpp" startline="25" endline="29">GameObject</referencedby>
         <referencedby refid="classGameObject_1a00da4ea36f3945e1da1a2f81061b57d3" compoundref="GameObject_8cpp" startline="68" endline="71">getCount</referencedby>
         <referencedby refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" compoundref="GameObject_8cpp" startline="38" endline="41">~GameObject</referencedby>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="43" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="43" bodyend="-1"/>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="42" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="42" bodyend="-1"/>
         <referencedby refid="classGameObject_1ab7c8021dd4caa10448c87396db933e94" compoundref="GameObject_8cpp" startline="53" endline="56">getName</referencedby>
       </memberdef>
       </sectiondef>
@@ -52,8 +52,8 @@
 <para>Also counts number of objects deleted </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="27" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="38" bodyend="41"/>
-        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="42">count_</references>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="26" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="38" bodyend="41"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="41">count_</references>
       </memberdef>
       <memberdef kind="function" id="classGameObject_1ab7c8021dd4caa10448c87396db933e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>string</type>
@@ -68,18 +68,16 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Name of Object </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="30" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="53" bodyend="56"/>
-        <references refid="classGameObject_1a975468b0205494c8809af8260c45f1df" compoundref="GameObject_8h" startline="43">kName</references>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="29" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="53" bodyend="56"/>
+        <references refid="classGameObject_1a975468b0205494c8809af8260c45f1df" compoundref="GameObject_8h" startline="42">kName</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -93,18 +91,16 @@
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para></parameterdescription>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>number of objects created </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="31" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="68" bodyend="71"/>
-        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="42">count_</references>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="30" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="68" bodyend="71"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="41">count_</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -141,8 +137,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="39" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="25" bodyend="29"/>
-        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="42">count_</references>
+        <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="38" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.cpp" bodystart="25" bodyend="29"/>
+        <references refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" compoundref="GameObject_8h" startline="41">count_</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -197,7 +193,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="25" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="24" bodyend="45"/>
+    <location file="Assignment01_155134X_TangZhiTern/GameObject.h" line="24" column="1" bodyfile="Assignment01_155134X_TangZhiTern/GameObject.h" bodystart="23" bodyend="44"/>
     <listofallmembers>
       <member refid="classGameObject_1a4f10ed5bec5962a6ed7632ec9deb6da6" prot="private" virt="non-virtual"><scope>GameObject</scope><name>count_</name></member>
       <member refid="classGameObject_1a649169a63b3a5f427912ac7252d5c0fb" prot="protected" virt="non-virtual"><scope>GameObject</scope><name>GameObject</name></member>
