@@ -275,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00263">263</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00254">254</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00069">radaway_</a>.</p>
 
@@ -304,7 +304,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00248">248</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00239">239</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00068">stimpak_</a>.</p>
 
@@ -334,7 +334,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>old outfit that was unequipped </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00327">327</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00318">318</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Item_8cpp_source.html#l00052">Item::getDurability()</a>, and <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>.</p>
 
@@ -374,7 +374,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>old weapon that was unequipped </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00352">352</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00343">343</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Item_8cpp_source.html#l00052">Item::getDurability()</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
 
@@ -412,11 +412,11 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>max health of dweller </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00398">398</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00389">389</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00067">radiation_</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00202">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00280">useStimpak()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00203">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00271">useStimpak()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -445,7 +445,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>get attack damage of dweller </p>
-<p>Default damage of dweller without a weapon is 1.</p>
+<p>It will first check if dweller has a weapon and weapon durability &gt; 0. Else, it will return a default damage of 1.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">None</td><td></td></tr>
@@ -454,9 +454,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>attack damage of dweller </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00135">135</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00136">136</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
-<p>References <a class="el" href="Weapon_8cpp_source.html#l00053">Weapon::getAttackDmg()</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
+<p>References <a class="el" href="Weapon_8cpp_source.html#l00053">Weapon::getAttackDmg()</a>, <a class="el" href="Item_8cpp_source.html#l00052">Item::getDurability()</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -464,6 +464,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classDweller_a7bb025bd8237c76efc510c603334906f_cgraph.png" border="0" usemap="#classDweller_a7bb025bd8237c76efc510c603334906f_cgraph" alt=""/></div>
 <map name="classDweller_a7bb025bd8237c76efc510c603334906f_cgraph" id="classDweller_a7bb025bd8237c76efc510c603334906f_cgraph">
 <area shape="rect" id="node2" href="classWeapon.html#aa68d843906315f5f97f85d464c865aef" title="get attack value of weapon " alt="" coords="208,5,369,32"/>
+<area shape="rect" id="node3" href="classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="225,56,352,83"/>
 </map>
 </div>
 </p>
@@ -548,7 +549,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position vector of dweller's position </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00155">155</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00156">156</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00064">position_</a>.</p>
 
@@ -568,7 +569,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Get the total SPECIAL value of dweller. </p>
-<p>It will first check if there is an outfit equipped. If there is an outfit, it will calculate and return the sum of their special value. Else, it will return just the special value of the dweller</p>
+<p>It will first check if there is an outfit equipped and durability is &gt; 0 If there is an outfit, it will calculate and return the sum of their special value. Else, it will return just the special value of the dweller</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">None</td><td></td></tr>
@@ -579,14 +580,15 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00065">65</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
-<p>References <a class="el" href="Outfit_8cpp_source.html#l00053">Outfit::getSPECIAL()</a>, <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>, and <a class="el" href="Dweller_8h_source.html#l00065">SPECIAL_</a>.</p>
+<p>References <a class="el" href="Item_8cpp_source.html#l00052">Item::getDurability()</a>, <a class="el" href="Outfit_8cpp_source.html#l00053">Outfit::getSPECIAL()</a>, <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>, and <a class="el" href="Dweller_8h_source.html#l00065">SPECIAL_</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classDweller_aee5683dcdaa052daac072cfdeb56df2f_cgraph.png" border="0" usemap="#classDweller_aee5683dcdaa052daac072cfdeb56df2f_cgraph" alt=""/></div>
 <map name="classDweller_aee5683dcdaa052daac072cfdeb56df2f_cgraph" id="classDweller_aee5683dcdaa052daac072cfdeb56df2f_cgraph">
-<area shape="rect" id="node2" href="classOutfit.html#ac62f8f308ad5a60cee90a9bfa8d70d4e" title="get SPECIAL value of outfit " alt="" coords="199,5,333,32"/>
+<area shape="rect" id="node2" href="classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="203,5,329,32"/>
+<area shape="rect" id="node3" href="classOutfit.html#ac62f8f308ad5a60cee90a9bfa8d70d4e" title="get SPECIAL value of outfit " alt="" coords="199,56,333,83"/>
 </map>
 </div>
 </p>
@@ -616,7 +618,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool to determine death </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00376">376</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00367">367</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00066">health_</a>, <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
 
@@ -637,7 +639,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>reduces durability of equipment of dweller </p>
-<p>Will remove equipment if it has no durability</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">damage</td><td>damage to be taken by equipments</td></tr>
@@ -646,18 +647,17 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00222">222</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00221">221</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
-<p>References <a class="el" href="Item_8cpp_source.html#l00052">Item::getDurability()</a>, <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>, <a class="el" href="Outfit_8cpp_source.html#l00069">Outfit::receiveDamage()</a>, <a class="el" href="Weapon_8cpp_source.html#l00071">Weapon::receiveDamage()</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
+<p>References <a class="el" href="Dweller_8h_source.html#l00070">outfit_</a>, <a class="el" href="Outfit_8cpp_source.html#l00069">Outfit::receiveDamage()</a>, <a class="el" href="Weapon_8cpp_source.html#l00071">Weapon::receiveDamage()</a>, and <a class="el" href="Dweller_8h_source.html#l00071">weapon_</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classDweller_a8db32db156db4cd786c3ee26567b1978_cgraph.png" border="0" usemap="#classDweller_a8db32db156db4cd786c3ee26567b1978_cgraph" alt=""/></div>
 <map name="classDweller_a8db32db156db4cd786c3ee26567b1978_cgraph" id="classDweller_a8db32db156db4cd786c3ee26567b1978_cgraph">
-<area shape="rect" id="node2" href="classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="248,5,375,32"/>
-<area shape="rect" id="node3" href="classOutfit.html#a3aa715a747b488a7b1498a01107b5436" title="reduces durability of outfit " alt="" coords="237,56,386,83"/>
-<area shape="rect" id="node4" href="classWeapon.html#acfd2308fd6931b854a8c9d11e58de6c9" title="reduces durability of weapon " alt="" coords="228,107,395,133"/>
+<area shape="rect" id="node2" href="classOutfit.html#a3aa715a747b488a7b1498a01107b5436" title="reduces durability of outfit " alt="" coords="237,5,386,32"/>
+<area shape="rect" id="node3" href="classWeapon.html#acfd2308fd6931b854a8c9d11e58de6c9" title="reduces durability of weapon " alt="" coords="228,56,395,83"/>
 </map>
 </div>
 </p>
@@ -687,7 +687,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00185">185</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00186">186</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00066">health_</a>.</p>
 
@@ -717,9 +717,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00202">202</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00203">203</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
-<p>References <a class="el" href="Dweller_8cpp_source.html#l00398">currentMaxHealth()</a>, <a class="el" href="Dweller_8h_source.html#l00066">health_</a>, and <a class="el" href="Dweller_8h_source.html#l00067">radiation_</a>.</p>
+<p>References <a class="el" href="Dweller_8cpp_source.html#l00389">currentMaxHealth()</a>, <a class="el" href="Dweller_8h_source.html#l00066">health_</a>, and <a class="el" href="Dweller_8h_source.html#l00067">radiation_</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -756,7 +756,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00170">170</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00171">171</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00064">position_</a>.</p>
 
@@ -785,7 +785,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00303">303</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00294">294</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
 <p>References <a class="el" href="Dweller_8h_source.html#l00069">radaway_</a>, and <a class="el" href="Dweller_8h_source.html#l00067">radiation_</a>.</p>
 
@@ -814,9 +814,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None </dd></dl>
 
-<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00280">280</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
+<p>Definition at line <a class="el" href="Dweller_8cpp_source.html#l00271">271</a> of file <a class="el" href="Dweller_8cpp_source.html">Dweller.cpp</a>.</p>
 
-<p>References <a class="el" href="Dweller_8cpp_source.html#l00398">currentMaxHealth()</a>, <a class="el" href="Dweller_8h_source.html#l00066">health_</a>, and <a class="el" href="Dweller_8h_source.html#l00068">stimpak_</a>.</p>
+<p>References <a class="el" href="Dweller_8cpp_source.html#l00389">currentMaxHealth()</a>, <a class="el" href="Dweller_8h_source.html#l00066">health_</a>, and <a class="el" href="Dweller_8h_source.html#l00068">stimpak_</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -851,7 +851,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00066">66</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00102">getCurrentHealth()</a>, <a class="el" href="Dweller_8cpp_source.html#l00376">isDead()</a>, <a class="el" href="Dweller_8cpp_source.html#l00185">receiveHealthDamage()</a>, <a class="el" href="Dweller_8cpp_source.html#l00202">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00280">useStimpak()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00102">getCurrentHealth()</a>, <a class="el" href="Dweller_8cpp_source.html#l00367">isDead()</a>, <a class="el" href="Dweller_8cpp_source.html#l00186">receiveHealthDamage()</a>, <a class="el" href="Dweller_8cpp_source.html#l00203">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00271">useStimpak()</a>.</p>
 
 </div>
 </div>
@@ -875,7 +875,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00070">70</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00327">assignOutfit()</a>, <a class="el" href="Dweller_8cpp_source.html#l00065">getSPECIAL()</a>, <a class="el" href="Dweller_8cpp_source.html#l00376">isDead()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00222">receiveEquipmentDamage()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00318">assignOutfit()</a>, <a class="el" href="Dweller_8cpp_source.html#l00065">getSPECIAL()</a>, <a class="el" href="Dweller_8cpp_source.html#l00367">isDead()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00221">receiveEquipmentDamage()</a>.</p>
 
 </div>
 </div>
@@ -899,7 +899,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00064">64</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00155">getPosition()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00170">setPosition()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00156">getPosition()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00171">setPosition()</a>.</p>
 
 </div>
 </div>
@@ -923,7 +923,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00069">69</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00263">addRadAway()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00303">useRadAway()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00254">addRadAway()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00294">useRadAway()</a>.</p>
 
 </div>
 </div>
@@ -947,7 +947,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00067">67</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00398">currentMaxHealth()</a>, <a class="el" href="Dweller_8cpp_source.html#l00118">getCurrentRadDamage()</a>, <a class="el" href="Dweller_8cpp_source.html#l00202">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00303">useRadAway()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00389">currentMaxHealth()</a>, <a class="el" href="Dweller_8cpp_source.html#l00118">getCurrentRadDamage()</a>, <a class="el" href="Dweller_8cpp_source.html#l00203">receiveRadDamage()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00294">useRadAway()</a>.</p>
 
 </div>
 </div>
@@ -995,7 +995,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00068">68</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00248">addStimpak()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00280">useStimpak()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00239">addStimpak()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00271">useStimpak()</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1019,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="Dweller_8h_source.html#l00071">71</a> of file <a class="el" href="Dweller_8h_source.html">Dweller.h</a>.</p>
 
-<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00352">assignWeapon()</a>, <a class="el" href="Dweller_8cpp_source.html#l00135">getAttackDmg()</a>, <a class="el" href="Dweller_8cpp_source.html#l00376">isDead()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00222">receiveEquipmentDamage()</a>.</p>
+<p>Referenced by <a class="el" href="Dweller_8cpp_source.html#l00343">assignWeapon()</a>, <a class="el" href="Dweller_8cpp_source.html#l00136">getAttackDmg()</a>, <a class="el" href="Dweller_8cpp_source.html#l00367">isDead()</a>, and <a class="el" href="Dweller_8cpp_source.html#l00221">receiveEquipmentDamage()</a>.</p>
 
 </div>
 </div>

@@ -5,16 +5,6 @@
     <includedby refid="Dweller_8h" local="yes">Assignment01_155134X_TangZhiTern/Dweller.h</includedby>
     <includedby refid="Vec2D_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Vec2D.cpp</includedby>
     <invincdepgraph>
-      <node id="155">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="156" relation="include">
-        </childnode>
-      </node>
-      <node id="156">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
-        <link refid="Dweller_8cpp"/>
-      </node>
       <node id="154">
         <label>Assignment01_155134X_TangZhiTern/Vec2D.h</label>
         <link refid="Vec2D.h"/>
@@ -23,9 +13,19 @@
         <childnode refid="157" relation="include">
         </childnode>
       </node>
+      <node id="156">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
+        <link refid="Dweller_8cpp"/>
+      </node>
       <node id="157">
         <label>Assignment01_155134X_TangZhiTern/Vec2D.cpp</label>
         <link refid="Vec2D_8cpp"/>
+      </node>
+      <node id="155">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structVec2D" prot="public">Vec2D</innerclass>

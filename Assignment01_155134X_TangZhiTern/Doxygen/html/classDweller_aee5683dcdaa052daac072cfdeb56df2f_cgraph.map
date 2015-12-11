@@ -1,3 +1,4 @@
 <map id="Dweller::getSPECIAL" name="Dweller::getSPECIAL">
-<area shape="rect" id="node2" href="$classOutfit.html#ac62f8f308ad5a60cee90a9bfa8d70d4e" title="get SPECIAL value of outfit " alt="" coords="199,5,333,32"/>
+<area shape="rect" id="node2" href="$classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="203,5,329,32"/>
+<area shape="rect" id="node3" href="$classOutfit.html#ac62f8f308ad5a60cee90a9bfa8d70d4e" title="get SPECIAL value of outfit " alt="" coords="199,56,333,83"/>
 </map>

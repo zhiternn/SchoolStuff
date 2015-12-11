@@ -1,5 +1,4 @@
 <map id="Dweller::receiveEquipmentDamage" name="Dweller::receiveEquipmentDamage">
-<area shape="rect" id="node2" href="$classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="248,5,375,32"/>
-<area shape="rect" id="node3" href="$classOutfit.html#a3aa715a747b488a7b1498a01107b5436" title="reduces durability of outfit " alt="" coords="237,56,386,83"/>
-<area shape="rect" id="node4" href="$classWeapon.html#acfd2308fd6931b854a8c9d11e58de6c9" title="reduces durability of weapon " alt="" coords="228,107,395,133"/>
+<area shape="rect" id="node2" href="$classOutfit.html#a3aa715a747b488a7b1498a01107b5436" title="reduces durability of outfit " alt="" coords="237,5,386,32"/>
+<area shape="rect" id="node3" href="$classWeapon.html#acfd2308fd6931b854a8c9d11e58de6c9" title="reduces durability of weapon " alt="" coords="228,56,395,83"/>
 </map>

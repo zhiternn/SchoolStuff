@@ -18,24 +18,6 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="111">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="112" relation="include">
-        </childnode>
-      </node>
-      <node id="116">
-        <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
-        <link refid="Weapon_8h"/>
-        <childnode refid="111" relation="include">
-        </childnode>
-        <childnode refid="117" relation="include">
-        </childnode>
-      </node>
-      <node id="115">
-        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
-        <link refid="Outfit_8cpp"/>
-      </node>
       <node id="112">
         <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
         <link refid="Dweller_8cpp"/>
@@ -50,9 +32,9 @@
         <childnode refid="118" relation="include">
         </childnode>
       </node>
-      <node id="118">
-        <label>Assignment01_155134X_TangZhiTern/Item.cpp</label>
-        <link refid="Item_8cpp"/>
+      <node id="119">
+        <label>Assignment01_155134X_TangZhiTern/GameObject.cpp</label>
+        <link refid="GameObject_8cpp"/>
       </node>
       <node id="114">
         <label>Assignment01_155134X_TangZhiTern/Outfit.h</label>
@@ -62,9 +44,13 @@
         <childnode refid="115" relation="include">
         </childnode>
       </node>
-      <node id="119">
-        <label>Assignment01_155134X_TangZhiTern/GameObject.cpp</label>
-        <link refid="GameObject_8cpp"/>
+      <node id="116">
+        <label>Assignment01_155134X_TangZhiTern/Weapon.h</label>
+        <link refid="Weapon_8h"/>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
       </node>
       <node id="110">
         <label>Assignment01_155134X_TangZhiTern/GameObject.h</label>
@@ -79,6 +65,20 @@
       <node id="117">
         <label>Assignment01_155134X_TangZhiTern/Weapon.cpp</label>
         <link refid="Weapon_8cpp"/>
+      </node>
+      <node id="118">
+        <label>Assignment01_155134X_TangZhiTern/Item.cpp</label>
+        <link refid="Item_8cpp"/>
+      </node>
+      <node id="111">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="112" relation="include">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
+        <link refid="Outfit_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classGameObject" prot="public">GameObject</innerclass>

@@ -121,7 +121,7 @@
         </inbodydescription>
         <location file="Assignment01_155134X_TangZhiTern/Weapon.h" line="28" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Weapon.cpp" bodystart="53" bodyend="56"/>
         <references refid="classWeapon_1a0f219eb852ca4d385443dd9a7d2f0212" compoundref="Weapon_8h" startline="40">kAttackDmg</references>
-        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="135" endline="143">Dweller::getAttackDmg</referencedby>
+        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="136" endline="144">Dweller::getAttackDmg</referencedby>
       </memberdef>
       <memberdef kind="function" id="classWeapon_1acfd2308fd6931b854a8c9d11e58de6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -158,7 +158,7 @@
         </inbodydescription>
         <location file="Assignment01_155134X_TangZhiTern/Weapon.h" line="35" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Weapon.cpp" bodystart="71" bodyend="77"/>
         <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">Item::durability_</references>
-        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="222" endline="236">Dweller::receiveEquipmentDamage</referencedby>
+        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="221" endline="227">Dweller::receiveEquipmentDamage</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

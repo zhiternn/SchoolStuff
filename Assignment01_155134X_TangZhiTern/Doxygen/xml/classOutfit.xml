@@ -159,7 +159,7 @@
         </inbodydescription>
         <location file="Assignment01_155134X_TangZhiTern/Outfit.h" line="35" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Outfit.cpp" bodystart="69" bodyend="75"/>
         <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">Item::durability_</references>
-        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="222" endline="236">Dweller::receiveEquipmentDamage</referencedby>
+        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="221" endline="227">Dweller::receiveEquipmentDamage</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>

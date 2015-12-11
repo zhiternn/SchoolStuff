@@ -4,14 +4,14 @@
     <compoundname>GameObject.cpp</compoundname>
     <includes refid="GameObject_8h" local="yes">GameObject.h</includes>
     <incdepgraph>
-      <node id="106">
-        <label>string</label>
-      </node>
       <node id="104">
         <label>Assignment01_155134X_TangZhiTern/GameObject.cpp</label>
         <link refid="GameObject.cpp"/>
         <childnode refid="105" relation="include">
         </childnode>
+      </node>
+      <node id="106">
+        <label>string</label>
       </node>
       <node id="105">
         <label>GameObject.h</label>

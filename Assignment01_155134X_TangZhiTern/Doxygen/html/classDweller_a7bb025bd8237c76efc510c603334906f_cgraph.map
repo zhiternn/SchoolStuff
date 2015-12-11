@@ -1,3 +1,4 @@
 <map id="Dweller::getAttackDmg" name="Dweller::getAttackDmg">
 <area shape="rect" id="node2" href="$classWeapon.html#aa68d843906315f5f97f85d464c865aef" title="get attack value of weapon " alt="" coords="208,5,369,32"/>
+<area shape="rect" id="node3" href="$classItem.html#a26396e7bd1be4d8ab3590dfac9cbca39" title="get durability of item calling this function " alt="" coords="225,56,352,83"/>
 </map>

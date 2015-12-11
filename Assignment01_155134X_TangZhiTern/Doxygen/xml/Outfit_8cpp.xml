@@ -4,15 +4,6 @@
     <compoundname>Outfit.cpp</compoundname>
     <includes refid="Outfit_8h" local="yes">Outfit.h</includes>
     <incdepgraph>
-      <node id="136">
-        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
-        <link refid="Outfit.cpp"/>
-        <childnode refid="137" relation="include">
-        </childnode>
-      </node>
-      <node id="140">
-        <label>string</label>
-      </node>
       <node id="138">
         <label>Item.h</label>
         <link refid="Item_8h"/>
@@ -25,10 +16,19 @@
         <childnode refid="138" relation="include">
         </childnode>
       </node>
+      <node id="140">
+        <label>string</label>
+      </node>
       <node id="139">
         <label>GameObject.h</label>
         <link refid="GameObject_8h"/>
         <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
+        <link refid="Outfit.cpp"/>
+        <childnode refid="137" relation="include">
         </childnode>
       </node>
     </incdepgraph>

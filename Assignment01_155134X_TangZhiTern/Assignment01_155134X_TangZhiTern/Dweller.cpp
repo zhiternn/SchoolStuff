@@ -52,7 +52,7 @@ Dweller::~Dweller()
 \brief
 Get the total SPECIAL value of dweller
 
-It will first check if there is an outfit equipped. 
+It will first check if there is an outfit equipped and durability is > 0 
 If there is an outfit, it will calculate and return the sum of their special value.
 Else, it will return just the special value of the dweller
 
@@ -64,7 +64,7 @@ total value of Dweller and Outfit special value
 /****************************************************************************/
 const int Dweller::getSPECIAL()
 {
-	if (outfit_){
+	if (outfit_ && outfit_->getDurability() > 0){
 		int outfitSPECIAL = outfit_->getSPECIAL();
 		int dwellerSPECIAL = SPECIAL_;
 		int pow = 1;
@@ -124,7 +124,8 @@ const int Dweller::getCurrentRadDamage()
 /*!
 \brief get attack damage of dweller
 
-Default damage of dweller without a weapon is 1.
+It will first check if dweller has a weapon and weapon durability > 0.
+Else, it will return a default damage of 1.
 
 \param None
 
@@ -134,11 +135,11 @@ attack damage of dweller
 /****************************************************************************/
 const int Dweller::getAttackDmg()
 {
-	if (weapon_ == nullptr){
-		return 1;
+	if (weapon_ && weapon_->getDurability() > 0){
+		return weapon_->getAttackDmg();
 	}
 	else{
-		return weapon_->getAttackDmg();
+		return 1;
 	}
 }
 
@@ -211,8 +212,6 @@ void Dweller::receiveRadDamage(const int& radiation_)
 /*!
 \brief reduces durability of equipment of dweller
 
-Will remove equipment if it has no durability
-
 \param damage
 	damage to be taken by equipments
 
@@ -221,18 +220,10 @@ Will remove equipment if it has no durability
 /****************************************************************************/
 void Dweller::receiveEquipmentDamage(const int& damage)
 {
-	if (weapon_){
+	if (weapon_)
 		weapon_->receiveDamage(damage);
-		if (weapon_->getDurability() == 0){
-			weapon_ = nullptr;
-		}
-	}
-	if (outfit_){
+	if (outfit_)
 		outfit_->receiveDamage(damage);
-		if (outfit_->getDurability() == 0){
-			outfit_ = nullptr;
-		}
-	}
 }
 
 /****************************************************************************/

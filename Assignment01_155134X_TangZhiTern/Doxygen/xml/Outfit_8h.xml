@@ -6,9 +6,6 @@
     <includedby refid="Dweller_8h" local="yes">Assignment01_155134X_TangZhiTern/Dweller.h</includedby>
     <includedby refid="Outfit_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Outfit.cpp</includedby>
     <incdepgraph>
-      <node id="145">
-        <label>string</label>
-      </node>
       <node id="143">
         <label>Item.h</label>
         <link refid="Item_8h"/>
@@ -21,6 +18,9 @@
         <childnode refid="143" relation="include">
         </childnode>
       </node>
+      <node id="145">
+        <label>string</label>
+      </node>
       <node id="144">
         <label>GameObject.h</label>
         <link refid="GameObject_8h"/>
@@ -29,16 +29,6 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="147">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller_8h"/>
-        <childnode refid="148" relation="include">
-        </childnode>
-      </node>
-      <node id="149">
-        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
-        <link refid="Outfit_8cpp"/>
-      </node>
       <node id="148">
         <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
         <link refid="Dweller_8cpp"/>
@@ -50,6 +40,16 @@
         </childnode>
         <childnode refid="149" relation="include">
         </childnode>
+      </node>
+      <node id="147">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>Assignment01_155134X_TangZhiTern/Outfit.cpp</label>
+        <link refid="Outfit_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classOutfit" prot="public">Outfit</innerclass>

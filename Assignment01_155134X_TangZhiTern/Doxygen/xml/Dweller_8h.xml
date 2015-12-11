@@ -8,26 +8,9 @@
     <includes refid="Weapon_8h" local="yes">Weapon.h</includes>
     <includedby refid="Dweller_8cpp" local="yes">Assignment01_155134X_TangZhiTern/Dweller.cpp</includedby>
     <incdepgraph>
-      <node id="95">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
-        <link refid="Dweller.h"/>
-        <childnode refid="96" relation="include">
-        </childnode>
-        <childnode refid="98" relation="include">
-        </childnode>
-        <childnode refid="99" relation="include">
-        </childnode>
-        <childnode refid="101" relation="include">
-        </childnode>
-      </node>
-      <node id="101">
-        <label>Weapon.h</label>
-        <link refid="Weapon_8h"/>
-        <childnode refid="100" relation="include">
-        </childnode>
-      </node>
-      <node id="97">
-        <label>string</label>
+      <node id="98">
+        <label>Vec2D.h</label>
+        <link refid="Vec2D_8h"/>
       </node>
       <node id="100">
         <label>Item.h</label>
@@ -41,27 +24,44 @@
         <childnode refid="100" relation="include">
         </childnode>
       </node>
+      <node id="97">
+        <label>string</label>
+      </node>
+      <node id="101">
+        <label>Weapon.h</label>
+        <link refid="Weapon_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
       <node id="96">
         <label>GameObject.h</label>
         <link refid="GameObject_8h"/>
         <childnode refid="97" relation="include">
         </childnode>
       </node>
-      <node id="98">
-        <label>Vec2D.h</label>
-        <link refid="Vec2D_8h"/>
+      <node id="95">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
+        <link refid="Dweller.h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="103">
+        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
+        <link refid="Dweller_8cpp"/>
+      </node>
       <node id="102">
         <label>Assignment01_155134X_TangZhiTern/Dweller.h</label>
         <link refid="Dweller.h"/>
         <childnode refid="103" relation="include">
         </childnode>
-      </node>
-      <node id="103">
-        <label>Assignment01_155134X_TangZhiTern/Dweller.cpp</label>
-        <link refid="Dweller_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classDweller" prot="public">Dweller</innerclass>

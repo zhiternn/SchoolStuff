@@ -1,5 +1,6 @@
 <map id="Item::getDurability" name="Item::getDurability">
-<area shape="rect" id="node2" href="$classDweller.html#a5b95803dcefe3b63ed7a9506504cae6f" title="assigns dweller with a new outfit " alt="" coords="197,5,338,32"/>
-<area shape="rect" id="node3" href="$classDweller.html#a7b91202ae3cb605550167e1eeb58ebb6" title="assigns dweller with a new weapon " alt="" coords="188,56,347,83"/>
-<area shape="rect" id="node4" href="$classDweller.html#a8db32db156db4cd786c3ee26567b1978" title="reduces durability of equipment of dweller " alt="" coords="180,107,355,149"/>
+<area shape="rect" id="node2" href="$classDweller.html#a5b95803dcefe3b63ed7a9506504cae6f" title="assigns dweller with a new outfit " alt="" coords="189,5,330,32"/>
+<area shape="rect" id="node3" href="$classDweller.html#a7b91202ae3cb605550167e1eeb58ebb6" title="assigns dweller with a new weapon " alt="" coords="180,56,339,83"/>
+<area shape="rect" id="node4" href="$classDweller.html#a7bb025bd8237c76efc510c603334906f" title="get attack damage of dweller " alt="" coords="182,107,337,133"/>
+<area shape="rect" id="node5" href="$classDweller.html#aee5683dcdaa052daac072cfdeb56df2f" title="Get the total SPECIAL value of dweller. " alt="" coords="187,157,332,184"/>
 </map>

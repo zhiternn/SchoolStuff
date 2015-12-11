@@ -113,9 +113,10 @@
         </inbodydescription>
         <location file="Assignment01_155134X_TangZhiTern/Item.h" line="28" column="1" bodyfile="Assignment01_155134X_TangZhiTern/Item.cpp" bodystart="52" bodyend="55"/>
         <references refid="classItem_1aa565c4091f6ac0634d762fb250128cee" compoundref="Item_8h" startline="38">durability_</references>
-        <referencedby refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" compoundref="Dweller_8cpp" startline="327" endline="337">Dweller::assignOutfit</referencedby>
-        <referencedby refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" compoundref="Dweller_8cpp" startline="352" endline="362">Dweller::assignWeapon</referencedby>
-        <referencedby refid="classDweller_1a8db32db156db4cd786c3ee26567b1978" compoundref="Dweller_8cpp" startline="222" endline="236">Dweller::receiveEquipmentDamage</referencedby>
+        <referencedby refid="classDweller_1a5b95803dcefe3b63ed7a9506504cae6f" compoundref="Dweller_8cpp" startline="318" endline="328">Dweller::assignOutfit</referencedby>
+        <referencedby refid="classDweller_1a7b91202ae3cb605550167e1eeb58ebb6" compoundref="Dweller_8cpp" startline="343" endline="353">Dweller::assignWeapon</referencedby>
+        <referencedby refid="classDweller_1a7bb025bd8237c76efc510c603334906f" compoundref="Dweller_8cpp" startline="136" endline="144">Dweller::getAttackDmg</referencedby>
+        <referencedby refid="classDweller_1aee5683dcdaa052daac072cfdeb56df2f" compoundref="Dweller_8cpp" startline="65" endline="90">Dweller::getSPECIAL</referencedby>
       </memberdef>
       <memberdef kind="function" id="classItem_1a07c472b8fe8c8141af58510bdb55cfcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
