@@ -12,8 +12,7 @@ Class to define a weapon
 
 /******************************************************************************/
 /*!
-\brief
-Parameter Constructor - Assigns required variables
+\brief Parameter Constructor - Assigns required variables
 
 \param kName
 	Name of object
@@ -43,7 +42,7 @@ Weapon::~Weapon()
 
 /******************************************************************************/
 /*!
-\brief returns attack value of weapon
+\brief get attack value of weapon
 
 \param None
 
@@ -59,7 +58,8 @@ const int Weapon::getAttackDmg()
 /******************************************************************************/
 /*!
 \brief reduces durability of weapon
-	durability to be reduced is halved
+	
+durability to be reduced is halved
 
 \param damage
 	damage to be taken by weapon

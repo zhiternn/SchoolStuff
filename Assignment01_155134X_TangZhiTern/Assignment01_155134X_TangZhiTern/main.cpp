@@ -29,6 +29,8 @@ int main()
 	cout << d.getSPECIAL() << endl;
 	d.assignOutfit(&o);
 	cout << d.getSPECIAL() << endl;
+	//d.~Dweller();
+	//o.~Outfit();
 
 
 	_CrtDumpMemoryLeaks();

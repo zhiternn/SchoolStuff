@@ -12,8 +12,7 @@ Class to define an outfit
 
 /******************************************************************************/
 /*!
-\brief
-Parameter Constructor - Assigns required variables
+\brief Parameter Constructor - Assigns required variables
 
 \param kName
 	Name of object
@@ -38,13 +37,12 @@ kSPECIAL(kSPECIAL)
 */
 /******************************************************************************/
 Outfit::~Outfit()
-
 {
 }
 
 /******************************************************************************/
 /*!
-\brief returns SPECIAL value of outfit
+\brief get SPECIAL value of outfit
 
 \param None
 

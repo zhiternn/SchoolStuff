@@ -1,3 +1,13 @@
+/******************************************************************************/
+/*!
+\file	Dweller.h
+\author Tang Zhi Tern
+\par	email: 155134X@mymail.nyp.edu.sg
+\brief
+Class to define a Dweller and its methods
+*/
+/******************************************************************************/
+
 #ifndef DWELLER_H
 #define DWELLER_H
 
@@ -6,6 +16,12 @@
 #include "Outfit.h"
 #include "Weapon.h"
 
+/****************************************************************************/
+/*!
+Class Dweller: public GameObject
+\brief	Provides variables and methods for Dweller Object
+*/
+/****************************************************************************/
 class Dweller : public GameObject{
 
 public:
@@ -26,12 +42,12 @@ public:
 	bool isDead();
 
 	//OTHERS
-	void receiveHealthDamage(const int& health_);		
+	void receiveHealthDamage(const int& damage);		
 	void receiveRadDamage(const int& radiation_);		
 	void receiveEquipmentDamage(const int& damage);
 
-	void addStimpak(const int& stimpak_);
-	void addRadAway(const int& radaway_);
+	void addStimpak(const int& amount);
+	void addRadAway(const int& amount);
 
 	void useStimpak();									
 	void useRadAway();

@@ -41,8 +41,7 @@ Item::~Item()
 
 /******************************************************************************/
 /*!
-\brief
-return durability of item calling this function
+\brief get durability of item calling this function
 
 \param None
 

@@ -13,8 +13,7 @@ Class to define a game object
 int GameObject::count_ = 0;
 /******************************************************************************/
 /*!
-\brief
-Parameter Constructor - Assign Name and count number of objects created
+\brief Parameter Constructor - Assign Name and count number of objects created
 
 \param kName
 	Name of object
@@ -43,8 +42,7 @@ GameObject::~GameObject()
 
 /****************************************************************************/
 /*!
-\brief
-Return the name of Object calling this function
+\brief Return the name of Object calling this function
 
 \param None
 
@@ -59,13 +57,12 @@ string GameObject::getName(void)
 
 /****************************************************************************/
 /*!
-\brief
-Return number of objects existing in game 
+\brief get number of objects existing in game 
 
 \param None
 
 \return
-Name of Object
+number of objects created
 */
 /****************************************************************************/
 int GameObject::getCount()
